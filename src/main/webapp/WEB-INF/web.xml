@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>JSP_MY_PROJ</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>m_board_Controller</display-name>
+    <servlet-name>m_board_Controller</servlet-name>
+    <servlet-class>controller.m_board_Controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>m_board_Controller</servlet-name>
+    <url-pattern>/m_board_Controller</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Member_Controller</display-name>
+    <servlet-name>Member_Controller</servlet-name>
+    <servlet-class>controller.Member_Controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Member_Controller</servlet-name>
+    <url-pattern>/Member_Controller</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Product_Controller</display-name>
+    <servlet-name>Product_Controller</servlet-name>
+    <servlet-class>controller.Product_Controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Product_Controller</servlet-name>
+    <url-pattern>/Product_Controller</url-pattern>
+  </servlet-mapping>
+</web-app>
